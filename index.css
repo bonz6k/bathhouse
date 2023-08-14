@@ -16,22 +16,24 @@ body{
     background-size: 100% 100%;
 }
 
-#main_slide #header{
+#header{
     background-color: #102E0E;
     width: 100%;
     height: 100px;
     opacity: 70%;
     display:flex;
+    position: fixed;
+    z-index: 1000000;
 }
 
-#main_slide #header .logo{
+#header .logo{
     width: 60px;
     height: 60px;
     margin-top: 25px;
     margin-left: 135px;
 }
 
-#main_slide #header #number_header{
+#header #number_header{
 font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 800;
@@ -43,24 +45,24 @@ margin-top: 38px;
 margin-right: 16px;
 }
 
-#main_slide #header .social{
+#header .social{
     margin-top: 34.2px;
     margin-left: 16px;
 }
 
-#main_slide #header .social img{
+#header .social img{
     width: 30px;
     height: 30px;
 }
 
-#main_slide #header #menu_img{
+#header #menu_img{
     width: 50px;
     height: 38px;
     margin-top: 31px;
     margin-left: 32px;
 }
 
-#main_slide #header #menu_img:hover{
+#header #menu_img:hover{
     opacity: 85%;
     cursor: pointer;
 }
@@ -79,8 +81,9 @@ font-size: 96px;
 line-height: 104px;
 color: #FFFFFF;
 margin-left: 135px;
-margin-top: 248px;
+padding-top: 248px;
 margin-bottom: 0;
+margin-top: 0;
 }
 
 #main_slide #title #desc{
@@ -246,4 +249,8 @@ margin-bottom: 0;
 #video_slide #circle_play:hover{
     cursor: pointer;
     opacity: 90%;
+}
+
+#video_slide #circle_play:focus{
+    display: none;
 }

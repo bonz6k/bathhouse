@@ -10,15 +10,16 @@
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
 </head>
 <body>
+    <div id="header">
+        <a href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+        <p id="number_header">8 910 706 66 66</p>
+        <a class="social" href=""><img src="img/vk.png" alt=""></a>
+        <a class="social" href=""><img src="img/whatsapp.png" alt=""></a>
+        <a href=""><img id="menu_img" src="img/menu_img.png" alt=""></a>
+    </div>
     <div id="base">
+        <script src="index.js"></script>
         <div id="main_slide">
-            <div id="header">
-                <a href=""><img class="logo" src="img/logo.png" alt=""></a>
-                <p id="number_header">8 910 706 66 66</p>
-                <a class="social" href=""><img src="img/vk.png" alt=""></a>
-                <a class="social" href=""><img src="img/whatsapp.png" alt=""></a>
-                <a href=""><img id="menu_img" src="img/menu_img.png" alt=""></a>
-            </div>
             <div id="title">
                 <p id="title_name">"СОСНОВЫЙ БОР"</p>
                 <p id="desc">Банный комплекс в Калужском бору</p>
@@ -33,7 +34,7 @@
         <div id="about_us_slide">
             <div id="photo">
                 <p id="about_us_title">О нас</p>
-                <img src="img/usadba.png" alt="">
+                <img id="slider_img" src="img/usadba.png" alt="">
             </div>
             <div id="desc_about_us">
                 <div id="div_thesis">
@@ -55,16 +56,18 @@
                     </pre>
                 </div>
                 <div class="buttons">
-                    <img src="img/left_arrow.png" alt="">
-                    <img src="img/right_arrow.png" alt="">
+                    <img id="left_arrow" src="img/left_arrow.png" alt="">
+                    <img id="right_arrow" src="img/right_arrow.png" alt="">
                 </div>
             </div>
         </div>
+        <script>slider_main_page()</script>
 
         <div id="video_slide">
             <video id="video" src="img/video.mp4" poster="img/oblojka.png"></video>   
             <button id="circle_play"><img src="img/triangle.png" alt=""></button>
         </div>
+        <script>video_play()</script>
     </div>
     
 </body>
