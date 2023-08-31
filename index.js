@@ -142,3 +142,11 @@ function main_menu(){
         if (e.key === 'Escape') {catalog.style.display='none'}
     });
 }
+
+
+
+
+
+
+
+
