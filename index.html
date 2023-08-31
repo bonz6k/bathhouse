@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
     <link href="https://fonts.cdnfonts.com/css/ruslan-display" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
 </head>
 <body>
     <div id="header">
@@ -15,26 +16,42 @@
         <p id="number_header">8 910 706 66 66</p>
         <a class="social" href=""><img src="img/vk.png" alt=""></a>
         <a class="social" href=""><img src="img/whatsapp.png" alt=""></a>
-        <a href=""><img id="menu_img" src="img/menu_img.png" alt=""></a>
+        <img id="menu_img" src="img/menu_img.png" alt="">
     </div>
+
     <div id="base">
         <script src="index.js"></script>
-        <div id="main_slide">
-            <div id="title">
-                <p id="title_name">"СОСНОВЫЙ БОР"</p>
-                <p id="desc">Банный комплекс в Калужском бору</p>
-                <a id="WA_message" href="">
-                    <div class="green_rectangle">
-                        <p id="WA_text">Написать</p>
-                    </div>
-                </a>
+        <div id="catalog_body">
+            <div id="catalog">
+            <div id="main_menu">
+                <a href="">Большая баня</a>
+                <a href="">Маленькая баня</a>
+                <a href="">Банкетный зал</a>
+                <a href="">Японская бочка</a>
+                <a href="">Гостиница</a>
+                <a href="">Беседки</a>
+                <a href="">Активный отдых</a>
+            </div>
             </div>
         </div>
+        
+        <script>main_menu()</script>
+
+        <div id="main_slide">
+            <div class="alignment_flex">
+                <div id="title">
+                    <p id="title_name">"СОСНОВЫЙ БОР"</p>
+                    <p id="desc">Банный комплекс в Калужском бору</p>
+                    <a id="msg" href="">Написать</a>
+                </div>
+            </div>
+        </div>
+        <script>main_slider()</script>
 
         <div id="about_us_slide">
             <div id="photo">
                 <p id="about_us_title">О нас</p>
-                <img id="slider_img" src="img/usadba.png" alt="">
+                <img id="about_us_slider_img" src="img/usadba.png" alt="">
             </div>
             <div id="desc_about_us">
                 <div id="div_thesis">
@@ -56,19 +73,149 @@
                     </pre>
                 </div>
                 <div class="buttons">
-                    <img id="left_arrow" src="img/left_arrow.png" alt="">
-                    <img id="right_arrow" src="img/right_arrow.png" alt="">
+                    <img id="about_us_left_arrow" src="img/left_arrow.png" alt="">
+                    <img id="about_us_right_arrow" src="img/right_arrow.png" alt="">
                 </div>
             </div>
         </div>
-        <script>slider_main_page()</script>
+        <script>about_us_slider()</script>
 
         <div id="video_slide">
             <video id="video" src="img/video.mp4" poster="img/oblojka.png"></video>   
             <button id="circle_play"><img src="img/triangle.png" alt=""></button>
         </div>
         <script>video_play()</script>
+
+        <div id="why_always_we">
+            <div id="div_waw_text">
+                <p id="waw_text">Почему мы?</p>
+            </div>
+            <div id="arguments">
+                <div id="arg_up">
+                    <img src="img/el'.png" alt="">
+                    <p class="header_arg">Калужский бор</p>
+                    <pre class="text_arg">экологически чистое место</pre>
+                </div>
+                <div id="arg_down">
+                    <div id="arg_down_left">
+                        <img src="img/heart.png" alt="">
+                        <p class="header_arg">Классическая русская баня</p>
+                        <pre class="text_arg">основа здоровья,
+бодрости и долголетия</pre>
+                   <button class="waw_btn">Посмотреть баню</button>
+                    </div>
+                    <div id="arg_down_right">
+                        <img src="img/food.png" alt="">
+                        <p class="header_arg">Традиционная кухня</p>
+                        <pre class="text_arg">банкетный зал и беседки
+для ваших мероприятий</pre>
+                    <button class="waw_btn">Посмотреть банкетный зал</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="brooms">
+            <div class="alignment_flex">
+                <pre id="brooms_txt">традиционные
+берёзовые
+и дубовые веники</pre>
+                <div id="white_line"></div>
+                <pre id="bath_attendant_txt">услуги
+профессионального
+банщика</pre>
+            </div>
+        </div>
+            
+
+        <div id="kitchen">
+            <p id="kitchen_txt">Кухня</p>
+            <img src="img/plov.png" alt="">
+            <img src="img/shashl'k.png" alt="">
+            <img src="img/shurpa.png" alt="">
+        </div>
+
+        <div id="sales">
+            <div class="alignment_block">
+                <pre id="sale_text">Скидка <b>15</b> %
+в день рождения</pre>
+                <p id="sale_desc">
+                Беседки, баня, банкетный зал
+                </p>
+                <a id="reserve_btn" href="">
+                    <div id="rectangle_reserve">
+                        <p id="reserve_txt">Забронировать</p>
+                    </div>
+                </a>
+            </div> 
+        </div>
+
+        <div id="reviews">
+                <p id="reviews_title">наши гости</p>
+                <div>
+                    <div id="desc_reviews">
+                        <img id="reviews_slider_img" src="img/boxers.png" alt="">
+                            <div id="reviews_description">
+                                <div id="vertical_line"></div>
+                                <div id="description_txt">
+                                    <p id="h_reviews">
+                        Калужская федерация бокса
+                                    </p>
+                                    <p id="p_reviews">Наши боксёры были в восторге. Всем рекомендуем данный банный комплекс для приятного отдыха, не пожалеете.</p>
+                                </div> 
+                            </div>
+                    </div>
+                <div class="buttons">
+                    <img id="reviews_left_arrow" src="img/left_arrow.png" alt="">
+                    <img id="reviews_right_arrow" src="img/right_arrow.png" alt="">
+                </div>
+                </div>
+        </div>
+        <script>reviews_slider()</script>
+
+        <div id="proverb">
+            <div class="alignment_block">
+                <pre id="proverb_txt">В суете современного мира так
+важно сделать паузу и позволить
+отдохнуть <b>душе и телу!</b>
+                </pre>
+            </div>
+        </div>
+
+        <footer>
+            <div id="location">
+                <iframe id="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A2400646a32c0c022ee092b4e8c96a7f36618a6ac3277b5325e9584b1197abbd4&amp;source=constructor"></iframe>
+                <div id="info">
+                    <h1>Ждём вас!</h1>
+                    <div id="adress">
+                        <p id="adress_h">Адрес:</p>
+                        <p id="adress_p">Калуга, мкр.Анненки, Беговая 3</p>
+                    </div>
+                    <div id="contacts">
+                        <p id="contacts_h">Контакты:</p>
+                        <p id="contacts_p">8 910 706 66 66</p>
+                    </div>
+                    <div id="social">
+                        <a href=""><img src="img/whatsapp.png" alt=""></a>
+                        <a href=""><img src="img/vk.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div id="foot_line"></div>
+            <div id="foot_menu">
+                <a href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+                <div id="foot_menu_txt">
+                    <a href="">Большая баня</a>
+                    <a href="">Маленькая баня</a>
+                    <a href="">Банкетный зал</a>
+                    <a href="">Японская бочка</a>
+                    <a href="">Гостиница</a>
+                    <a href="">Беседки</a>
+                    <a href="">Активный отдых</a>
+                </div>
+            </div>
+        </footer>
+
     </div>
-    
 </body>
 </html>
