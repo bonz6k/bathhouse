@@ -270,3 +270,34 @@ left.onclick=function(){
 
 
 
+function JapanBarellBackgroundImage(){
+    var images = new Array();
+    var i = 0;
+                     
+images[0] = "url('img/banya.jpg')";
+images[1] = "url('img/banqet_2.jfif')";
+
+
+document.getElementById("body").style.backgroundImage = images[i];
+var right = document.getElementById('reviews_right_arrow');
+var left = document.getElementById('reviews_left_arrow');
+
+right.onclick=function(){
+    if((i+1)<images.length){i++}
+    else{i=0}
+    document.getElementById("body").style.backgroundImage = images[i];
+}
+
+left.onclick=function(){
+    if(i==0){i=(images.length-1)}
+    else{i--}
+    document.getElementById("body").style.backgroundImage = images[i];
+}
+}
+
+
+
+
+
+
+
