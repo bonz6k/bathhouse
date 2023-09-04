@@ -150,7 +150,7 @@ line-height: 43px;
 color: #F4A123;
 margin: 0;
 margin-left: 190px;
-margin-top: 12%;
+margin-top: 9.5%;
 }
 
 #rectangle_reserve{
@@ -159,7 +159,7 @@ margin-top: 12%;
     border-radius: 30px;
     background-color: #189D0E;
     margin-left: 50px;
-    margin-top: 23px;
+    margin-top: 8px;
 }
 
 #rectangle_reserve:hover{
@@ -198,6 +198,6 @@ padding-top: 19px;
 }
 
 #arrow_buttons{
-    margin-top: 6%;
+    margin-top: 3%;
     margin-left: 139px;
 }
