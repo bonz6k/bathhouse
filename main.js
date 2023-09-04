@@ -1,3 +1,23 @@
+var backgroundImages = new Array();
+var a = 0;  
+
+function MainPageBackgroundImageSlider() {
+        
+    backgroundImages[0] = "url('img/main_slide_1.jfif')";
+    backgroundImages[1] = "url('img/bear.jpg')";
+    backgroundImages[2] = "url('img/brevna.jfif')"; 
+
+document.getElementById("main_slide").style.backgroundImage = backgroundImages[a]; 
+a++;
+if (a == backgroundImages.length) {
+    a = 0;}
+setTimeout("MainPageBackgroundImageSlider()",5000)}
+
+
+
+
+
+
 function about_us_slider(){
     var images = new Array();
     var i = 0;
@@ -143,6 +163,70 @@ function main_menu(){
     });
 }
 
+
+
+
+
+function SmallBathBackgroundImage(){
+    var images = new Array();
+    var i = 0;
+                     
+images[0] = "url('img/smallBath_1.jfif')";
+images[1] = "url('img/smallBath_2.jfif')";
+images[2] = "url('img/smallBath_3.jfif')";
+images[3] = "url('img/veniki.jfif')";
+
+
+document.getElementById("body").style.backgroundImage = images[i];
+var right = document.getElementById('reviews_right_arrow');
+var left = document.getElementById('reviews_left_arrow');
+
+right.onclick=function(){
+    if((i+1)<images.length){i++}
+    else{i=0}
+    document.getElementById("body").style.backgroundImage = images[i];
+}
+
+left.onclick=function(){
+    if(i==0){i=(images.length-1)}
+    else{i--}
+    document.getElementById("body").style.backgroundImage = images[i];
+}
+}
+
+
+
+
+
+
+function BigBathBackgroundImage(){
+    var images = new Array();
+    var i = 0;
+                     
+images[0] = "url('img/Big_b_1.jfif')";
+images[1] = "url('img/Big_b_2.jfif')";
+images[2] = "url('img/Big_b_3.jfif')";
+images[3] = "url('img/Big_b_4.jfif')";
+images[4] = "url('img/Big_b_5.jfif')";
+images[5] = "url('img/Big_b_6.jfif')";
+
+
+document.getElementById("body").style.backgroundImage = images[i];
+var right = document.getElementById('reviews_right_arrow');
+var left = document.getElementById('reviews_left_arrow');
+
+right.onclick=function(){
+    if((i+1)<images.length){i++}
+    else{i=0}
+    document.getElementById("body").style.backgroundImage = images[i];
+}
+
+left.onclick=function(){
+    if(i==0){i=(images.length-1)}
+    else{i--}
+    document.getElementById("body").style.backgroundImage = images[i];
+}
+}
 
 
 
