@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    cursor: default;
+    background-image: url('img/banqet_1.jfif');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    margin: 0;
+    display: flex;
+}
+
+#right{
+    background-color: rgba(16, 46, 14, 0.7);
+    width: 27.5%;
+    height: 100%;
+    right: 0;
+}
+
+#catalog{
+    width: 419px;
+    height: 544px;
+    display: block;
+    padding-left: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+}
+
+#catalog li{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+display: block;
+opacity: 100%;
+padding-bottom: 40px;
+}
+
+#catalog li:hover{
+    color: #F4A123;
+}
+
+#line{
+    width: 170px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 100%;
+    margin-bottom: 40px;
+}
+
+#left{
+    width: 72.5%;
+    height: 100%;
+    right: 0;
+}
+
+#head{
+    display: flex;
+}
+
+#head img{
+    width: 80px;
+    height: 80px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+#head img:hover{
+    cursor: pointer;
+}
+
+#text h1{
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 69px;
+color: #FFFFFF;
+margin: 0;
+margin-top: 81px;
+margin-left: 120px;
+}
+
+#text p{
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 52px;
+color: #FFFFFF;
+margin: 0;
+margin-left: 425px;
+margin-top: 8px;
+}
+
+#middle{
+    display: flex;
+}
+
+#middle h2{
+writing-mode:vertical-rl;
+transform: scale(-1);
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 104px;
+color: #FFFFFF;
+margin: 0;
+margin-left: 68px;
+height: 276px;
+width: 104px;
+margin-top: 5%;
+}
+
+#price h1{
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 69px;
+color: #ffffff;
+margin: 0;
+margin-top: 25%;
+margin-left: 398px;
+}
+
+#price h1 b{
+    color: #F4A123;
+}
+
+#price p{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+margin: 0;
+margin-left: 507px;
+margin-top: 8px;
+}
+
+#foot{
+    display: flex;
+}
+
+#foot h3{
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 43px;
+color: #F4A123;
+margin: 0;
+margin-left: 190px;
+margin-top: 9.5%;
+}
+
+#rectangle_reserve{
+    width: 365px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: #189D0E;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+#rectangle_reserve:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+
+#rectangle_reserve #reserve_txt{
+width: 290px;
+height: 27px;
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 34.72px;
+color: #FFFEFE;
+margin-top: 0;
+margin-left: 35px;
+padding-top: 19px;
+}
+
+#reserve_btn{
+    text-decoration: none;
+}
+
+#arrow_buttons img{
+    width: 71px;
+    height: 71px;
+    margin-right: 47px;
+
+}
+
+#arrow_buttons img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#arrow_buttons{
+    margin-top: 3%;
+    margin-left: 129px;
+}
