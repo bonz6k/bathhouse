@@ -77,8 +77,8 @@ var images = new Array();
     var i = 0;
                      
 images[0] = 'img/boxers.png';
-images[1] = 'img/luntik.jpg';
-images[2] = 'img/univer.png';
+// images[1] = 'img/luntik.jpg';
+// images[2] = 'img/univer.png';
 
 var h = new Array();
     var hh = 0;
