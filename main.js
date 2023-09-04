@@ -104,13 +104,13 @@ right.onclick=function(){
     else{i=0}
     document.getElementById("reviews_slider_img").src = images[i];
 
-    if((hh+1)<images.length){hh++}
-    else{hh=0}
-    document.getElementById("h_reviews").innerHTML = h[hh];
+    // if((hh+1)<images.length){hh++}
+    // else{hh=0}
+    // document.getElementById("h_reviews").innerHTML = h[hh];
 
-    if((pp+1)<images.length){pp++}
-    else{pp=0}
-    document.getElementById("p_reviews").innerHTML = p[pp];
+    // if((pp+1)<images.length){pp++}
+    // else{pp=0}
+    // document.getElementById("p_reviews").innerHTML = p[pp];
 }
 
 left.onclick=function(){
@@ -118,13 +118,13 @@ left.onclick=function(){
     else{i--}
     document.getElementById("reviews_slider_img").src = images[i];
 
-    if(hh==0){hh=(images.length-1)}
-    else{hh--}
-    document.getElementById("h_reviews").innerHTML = h[hh];
+    // if(hh==0){hh=(images.length-1)}
+    // else{hh--}
+    // document.getElementById("h_reviews").innerHTML = h[hh];
 
-    if(pp==0){pp=(images.length-1)}
-    else{pp--}
-    document.getElementById("p_reviews").innerHTML = p[pp];
+    // if(pp==0){pp=(images.length-1)}
+    // else{pp--}
+    // document.getElementById("p_reviews").innerHTML = p[pp];
 }
 
 }
@@ -275,7 +275,6 @@ function JapanBarellBackgroundImage(){
     var i = 0;
                      
 images[0] = "url('img/banya.jpg')";
-images[1] = "url('img/banqet_2.jfif')";
 
 
 document.getElementById("body").style.backgroundImage = images[i];
@@ -286,6 +285,50 @@ right.onclick=function(){
     if((i+1)<images.length){i++}
     else{i=0}
     document.getElementById("body").style.backgroundImage = images[i];
+}
+
+left.onclick=function(){
+    if(i==0){i=(images.length-1)}
+    else{i--}
+    document.getElementById("body").style.backgroundImage = images[i];
+}
+}
+
+
+
+
+
+
+
+function hotel(){
+    var images = new Array();
+    var i = 0;
+                     
+images[0] = "url('img/hotel_1.jfif')";
+images[1] = "url('img/hotel_2.jfif')";
+images[2] = "url('img/hotel_3.jfif')";
+images[3] = "url('img/hotel_4.jfif')";
+
+
+document.getElementById("body").style.backgroundImage = images[i];
+var right = document.getElementById('reviews_right_arrow');
+var left = document.getElementById('reviews_left_arrow');
+
+right.onclick=function(){
+    if((i+1)<images.length){
+        i++;
+    document.getElementById("body").style.backgroundImage = images[i];
+    document.getElementById("h1").style.margin = "7% 0 0 80%";
+    document.getElementById("p").style.margin = "16px 0 0 85%";
+    document.getElementById("reserve_btn").style.margin = "16px 0 0 104%";
+    }
+    else{
+        i=0;
+    document.getElementById("body").style.backgroundImage = images[i];
+    document.getElementById("h1").style.margin = "35% 0 0 32px";
+    document.getElementById("p").style.margin = "16px 0 0 68.5px";
+    document.getElementById("reserve_btn").style.margin = "16px 0 0 199.5px";
+    }
 }
 
 left.onclick=function(){
