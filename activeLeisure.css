@@ -1,7 +1,7 @@
 body{
     margin: 0;
     cursor: default;
-    background-image: url('img/akt_1.jfif');
+    background-image: url('img/pavilion_1.jfif');
     width: 100%;
     height: 100vh;
     background-size: 100% 100%;
@@ -30,16 +30,24 @@ body{
     cursor: pointer;
 }
 
+#price{
+    background-color: rgba(12, 34, 10, 0.7);
+    margin-top: 102px;
+    width: 100%;
+    height: 330px;
+    display: grid;
+}
+
 #price h1{
-font-family: 'Ruslan Display';
+font-family: 'Mulish';
 font-style: normal;
 font-weight: 400;
-font-size: 64px;
-line-height: 69px;
+font-size: 24px;
+line-height: 30px;
 color: #FFFFFF;
 margin: 0;
-margin-left: 287px;
-margin-top: 23%;
+height: 39px;
+text-align: center;
 }
 
 #head h4{
@@ -50,31 +58,69 @@ font-size: 64px;
 line-height: 69px;
 color: #FFFFFF;
 margin: 0;
-margin-top: 74px;
-margin-left: 163px;
+margin-top: 77px;
+margin-left: 107px;
 }
 
-#price p{
+#price h1 b{
 font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 400;
-font-size: 64px;
-line-height: 69px;
-color: #FFFFFF;
+font-size: 40px;
+line-height: 43px;
+color: #F4A123;
+}
+
+#price p{
+    font-family: 'Ruslan Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+    color: #FFFFFF;
 margin: 0;
-margin-left: 575px;
-width: 622px;
+padding-top: 51px;
 text-align: center;
+height: 43px;
 }
 
 #foot{
     display: block;
 }
 
+#rectangle_reserve{
+    width: 365px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: #189D0E;
+    font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 34.72px;
+color: #FFFEFE;
+border: 0;
+padding-top: 10.5px;
+}
+
+#rectangle_reserve:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+
+#reserve_btn{
+    margin-bottom: 0;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65px;
+}
+
 #arrow_buttons img{
     width: 71px;
     height: 71px;
-    margin-right: 47px;
+    margin-right: 23.5px;
+    margin-left: 23.5px;
 
 }
 
@@ -84,6 +130,9 @@ text-align: center;
 }
 
 #arrow_buttons{
-    margin-top: 3%;
-    margin-left: 44%;
+    width: 250px;
+    height: 72px;
+margin: 0 auto;
+display: block;
+margin-top: 3%;
 }

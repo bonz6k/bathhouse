@@ -30,22 +30,29 @@ body{
     cursor: pointer;
 }
 
+#price{
+    background-color: rgba(12, 34, 10, 0.7);
+    margin-top: 102px;
+    width: 100%;
+    height: 330px;
+    display: grid;
+}
+
 #price h1{
 font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 400;
-font-size: 40px;
-line-height: 43px;
+font-size: 48px;
+line-height: 52px;
 color: #ffffff;
 margin: 0;
-margin-left: 477px;
-width: 692px;
 height: 39px;
+text-align: center;
 }
 
-#price h4{
+#head h4{
 font-family: 'Ruslan Display';
-font-style: normal;
+font-strgb(255, 255, 255)rmal;
 font-weight: 400;
 font-size: 64px;
 line-height: 69px;
@@ -56,20 +63,20 @@ margin-left: 163px;
 }
 
 #price h1 b{
-    color: #F4A123;
+color: #F4A123;
 }
 
 #price p{
-font-family: 'Ruslan Display';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 69px;
-color: #FFFFFF;
+    font-family: 'Ruslan Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+    color: #FFFFFF;
 margin: 0;
-margin-left: 575px;
-width: 622px;
+padding-top: 51px;
 text-align: center;
+height: 43px;
 }
 
 #foot{
@@ -89,7 +96,6 @@ line-height: 34.72px;
 color: #FFFEFE;
 border: 0;
 padding-top: 10.5px;
-margin-top:16px;
 }
 
 #rectangle_reserve:hover{
@@ -98,14 +104,18 @@ margin-top:16px;
 }
 
 #reserve_btn{
+    margin-bottom: 0;
     text-decoration: none;
-    margin-left: 472px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65px;
 }
 
 #arrow_buttons img{
     width: 71px;
     height: 71px;
-    margin-right: 47px;
+    margin-right: 23.5px;
+    margin-left: 23.5px;
 
 }
 
@@ -115,6 +125,9 @@ margin-top:16px;
 }
 
 #arrow_buttons{
-    margin-top: 17%;
-    margin-left: 44%;
+    width: 250px;
+    height: 72px;
+margin: 0 auto;
+display: block;
+margin-top: 3%;
 }

@@ -410,20 +410,11 @@ function activeLeisureBackgroundImage(){
 
     var p = new Array();
                      
-images[0] = "url('img/akt_1.jpg')";
-images[1] = "url('img/akt_2.jfif')";
-images[2] = "url('img/akt_3.jfif')";
-images[3] = "url('img/akt_4.jfif')";
+images[0] = "url('img/velik.jfif')";
+images[1] = "url('img/lyzhi.jfif')";
 
 h[0] = "Прокат велосипедов";
 h[1] = "Прокат лыжной экипировки";
-h[2] = "Прокат лыжной экипировки";
-h[3] = "Лыжи,лыжные палки,ботинки";
-
-p[0] = "";
-p[1] = "Лыжи,лыжные палки,ботинки";
-p[2] = "Лыжи,лыжные палки,ботинки";
-p[3] = "Прокат лыжной экипировки";
 
 document.getElementById("body").style.backgroundImage = images[i];
 var right = document.getElementById('reviews_right_arrow');
@@ -433,16 +424,14 @@ right.onclick=function(){
     if((i+1)<images.length){i++}
     else{i=0}
     document.getElementById("body").style.backgroundImage = images[i];
-    document.getElementById("h1").innerHTML = h[i];
-    document.getElementById("p").innerHTML = p[i];
+    document.getElementById("p").innerHTML = h[i];
 }
 
 left.onclick=function(){
     if(i==0){i=(images.length-1)}
     else{i--}
     document.getElementById("body").style.backgroundImage = images[i];
-    document.getElementById("h1").innerHTML = h[i];
-    document.getElementById("p").innerHTML = p[i];
+    document.getElementById("p").innerHTML = h[i];
 }
 }
 
