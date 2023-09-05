@@ -275,6 +275,9 @@ function JapanBarellBackgroundImage(){
     var i = 0;
                      
 images[0] = "url('img/banya.jpg')";
+images[1] = "url('img/banya_2.jfif')";
+images[2] = "url('img/banya_3.jfif')";
+images[3] = "url('img/banya_4.jfif')";
 
 
 document.getElementById("body").style.backgroundImage = images[i];
@@ -320,15 +323,68 @@ right.onclick=function(){
     document.getElementById("body").style.backgroundImage = images[i];
     document.getElementById("h1").style.margin = "7% 0 0 80%";
     document.getElementById("p").style.margin = "16px 0 0 85%";
-    document.getElementById("reserve_btn").style.margin = "16px 0 0 104%";
+    document.getElementById("reserve_btn").style.margin = "0 0 0 104%";
     }
     else{
         i=0;
     document.getElementById("body").style.backgroundImage = images[i];
     document.getElementById("h1").style.margin = "35% 0 0 32px";
     document.getElementById("p").style.margin = "16px 0 0 68.5px";
-    document.getElementById("reserve_btn").style.margin = "16px 0 0 199.5px";
+    document.getElementById("reserve_btn").style.margin = "0 0 0 199.5px";
     }
+}
+
+left.onclick=function(){
+    if(i==0){
+    i = (images.length-1);
+    document.getElementById("body").style.backgroundImage = images[i];
+    document.getElementById("h1").style.margin = "7% 0 0 80%";
+    document.getElementById("p").style.margin = "16px 0 0 85%";
+    document.getElementById("reserve_btn").style.margin = "0 0 0 104%";
+    }
+
+    else if((i!=1)&&(i!=0)){
+        i--;
+    document.getElementById("body").style.backgroundImage = images[i];
+    document.getElementById("h1").style.margin = "7% 0 0 80%";
+    document.getElementById("p").style.margin = "16px 0 0 85%";
+    document.getElementById("reserve_btn").style.margin = "0 0 0 104%";
+    }
+
+    else if(i==1){
+        i--;
+        document.getElementById("body").style.backgroundImage = images[i];
+        document.getElementById("h1").style.margin = "35% 0 0 32px";
+        document.getElementById("p").style.margin = "16px 0 0 68.5px";
+        document.getElementById("reserve_btn").style.margin = "0 0 0 199.5px";
+    }
+}
+}
+
+
+
+
+
+
+
+
+function PavilionBackgroundImage(){
+    var images = new Array();
+    var i = 0;
+                     
+images[0] = "url('img/pavilion_1.jfif')";
+images[1] = "url('img/pavilion_2.jfif')";
+images[2] = "url('img/pavilion_3.jfif')";
+
+
+document.getElementById("body").style.backgroundImage = images[i];
+var right = document.getElementById('reviews_right_arrow');
+var left = document.getElementById('reviews_left_arrow');
+
+right.onclick=function(){
+    if((i+1)<images.length){i++}
+    else{i=0}
+    document.getElementById("body").style.backgroundImage = images[i];
 }
 
 left.onclick=function(){
@@ -339,6 +395,56 @@ left.onclick=function(){
 }
 
 
+
+
+
+
+
+
+activeLeisure
+function activeLeisureBackgroundImage(){
+    var images = new Array();
+    var i = 0;
+
+    var h = new Array();
+
+    var p = new Array();
+                     
+images[0] = "url('img/akt_1.jpg')";
+images[1] = "url('img/akt_2.jfif')";
+images[2] = "url('img/akt_3.jfif')";
+images[3] = "url('img/akt_4.jfif')";
+
+h[0] = "Прокат велосипедов";
+h[1] = "Прокат лыжной экипировки";
+h[2] = "Прокат лыжной экипировки";
+h[3] = "Лыжи,лыжные палки,ботинки";
+
+p[0] = "";
+p[1] = "Лыжи,лыжные палки,ботинки";
+p[2] = "Лыжи,лыжные палки,ботинки";
+p[3] = "Прокат лыжной экипировки";
+
+document.getElementById("body").style.backgroundImage = images[i];
+var right = document.getElementById('reviews_right_arrow');
+var left = document.getElementById('reviews_left_arrow');
+
+right.onclick=function(){
+    if((i+1)<images.length){i++}
+    else{i=0}
+    document.getElementById("body").style.backgroundImage = images[i];
+    document.getElementById("h1").innerHTML = h[i];
+    document.getElementById("p").innerHTML = p[i];
+}
+
+left.onclick=function(){
+    if(i==0){i=(images.length-1)}
+    else{i--}
+    document.getElementById("body").style.backgroundImage = images[i];
+    document.getElementById("h1").innerHTML = h[i];
+    document.getElementById("p").innerHTML = p[i];
+}
+}
 
 
 
