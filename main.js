@@ -23,8 +23,22 @@ function about_us_slider(){
     var i = 0;
                      
 images[0] = 'img/usadba.png';
-images[1] = 'img/bear.jpg';
-images[2] = 'img/banya.jpg';
+images[1] = 'img/au_1.jfif';
+images[2] = 'img/au_2.jfif';
+images[3] = 'img/au_3.jfif';
+images[4] = 'img/au_4.jfif';
+images[5] = 'img/au_5.jfif';
+images[6] = 'img/au_6.jfif';
+images[7] = 'img/au_7.jfif';
+images[8] = 'img/au_8.jfif';
+images[9] = 'img/au_9.jfif';
+images[10] = 'img/au_10.jfif';
+images[11] = 'img/au_11.jfif';
+images[12] = 'img/au_12.jfif';
+images[13] = 'img/au_13.jfif';
+images[14] = 'img/au_14.jfif';
+images[15] = 'img/au_15.jfif';
+images[16] = 'img/au_16.jfif';
 
 
 document.getElementById("about_us_slider_img").src = images[i];

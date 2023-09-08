@@ -1,20 +1,9 @@
+@media (min-width: 1200px){
+
 body{
     margin: 0;
     background-color: #BBC3A5;
     cursor: default;
-}
-
-.alignment_flex{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    display: flex;
-}
-
-.alignment_block{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
 }
 
 #main_slide{
@@ -476,7 +465,7 @@ line-height: 25px;
 }
 
 #brooms_txt{
-width: 470px;
+width: 360px;
 height: 105px;
 font-family: 'Ruslan Display';
 font-style: normal;
@@ -485,7 +474,6 @@ font-size: 32px;
 line-height: 35px;
 color: #FFFFFF;
 margin: 0;
-margin-left: 235px;
 padding-top: 87px;
 }
 
@@ -494,10 +482,12 @@ width: 3px;
 height: 172px;
 background-color: #FFFFFF;
 margin-top: 53.5px;
+margin-left: 130px;
+margin-right: 20px;
 }
 
 #bath_attendant_txt{
-width: 470px;
+width: 360px;
 height: 105px;
 font-family: 'Ruslan Display';
 font-style: normal;
@@ -506,16 +496,23 @@ font-size: 32px;
 line-height: 35px;
 color: #F4A123;
 margin: 0;
-padding-left: 20px;
 padding-top: 87px;
+}
+
+#brooms .alig{
+    width: 983px;
+}
+
+.alig{
+margin-left: auto;
+margin-right: auto;
+display: flex;
 }
 
 #kitchen{
     margin-top: 103px;
     display: flex;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #kitchen_txt{
@@ -528,8 +525,8 @@ font-size: 64px;
 line-height: 69px;
 color: #102E0E;
 text-align: center;
-margin-left: 66px;
-margin-right: 0;
+margin:0;
+width: 69px;
 }
 
 #kitchen img{
@@ -549,6 +546,8 @@ margin-right: 30px;
     background-image: url(img/bilyard.png);
     background-size: 100% 100%;
     margin-top: 103px;
+    display: grid;
+    grid-auto-rows: 0;
 }
 
 #sale_text{
@@ -561,6 +560,8 @@ text-align: center;
 color: #FFFFFF;
 margin: 0;
 padding-top: 182px;
+display: block;
+height: 120px;
 }
 
 #sale_text b{
@@ -576,7 +577,9 @@ line-height: 40px;
 color: #FFFFFF;
 text-align: center;
 margin: 0;
-padding-top: 16px;
+display: block;
+height: 40px;
+padding-top: 318px;
 }
 
 #rectangle_reserve{
@@ -584,8 +587,14 @@ padding-top: 16px;
     height: 65px;
     border-radius: 30px;
     background-color: #189D0E;
-    margin-left: 540px;
-    margin-top: 50px;
+    font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 34.72px;
+color: #FFFEFE;
+border: 0;
+padding-top: 10.5px;
 }
 
 #rectangle_reserve:hover{
@@ -593,22 +602,13 @@ padding-top: 16px;
     opacity: 90%;
 }
 
-#rectangle_reserve #reserve_txt{
-width: 290px;
-height: 27px;
-font-family: 'Ruslan Display';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 34.72px;
-color: #FFFEFE;
-margin-top: 0;
-margin-left: 35px;
-padding-top: 19px;
-}
-
 #reserve_btn{
+    margin-bottom: 0;
     text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65px;
+    padding-top: 390px;
 }
 
 #reviews{
@@ -867,4 +867,5 @@ padding-right: 18px;
 
 #foot_menu_txt a:hover{
     color: #F4A123;
+}
 }
