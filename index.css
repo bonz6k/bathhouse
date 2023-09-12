@@ -1028,20 +1028,8 @@ padding-right: 18px;
         margin-right: 8px;
     }
     
-    @keyframes menu{
-        from{
-            margin-top: 0;
-        }
-    
-        to{
-            margin-top: 0;
-        }
-    }
-    
     #main_menu{
         display: grid;
-        animation-duration: 0.5s;
-        animation-name: menu;
         margin-left: auto;
         margin-right: auto;
     }
