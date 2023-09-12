@@ -627,31 +627,18 @@ else if(window.innerWidth<450){
     
     function main_menu(){
         var btn = document.getElementById('menu_img');
+        var close = document.getElementById('close');
         var catalog = document.getElementById('catalog_body');
-        var menu = document.getElementById('main_menu');
-        var i = 0;
     
         btn.onclick=function(){
-            if (i==0) {
                 catalog.style.display='grid'
                 i = 1;
-            }
-            else{
-                catalog.style.display='none'
-                i = 0;
-            }
         };
     
-        catalog.onclick=function(){
-            if(i==1){
+        close.onclick=function(){
                 catalog.style.display='none'
                 i = 0;
-            }
         }
-    
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {catalog.style.display='none'}
-        });
     }
     
     

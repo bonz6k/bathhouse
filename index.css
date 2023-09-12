@@ -29,6 +29,14 @@ body{
     margin-right: auto;
 }
 
+#MainMenu_social{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
 #header .logo{
     width: 60px;
     height: 60px;
@@ -1001,9 +1009,6 @@ padding-right: 18px;
     
     #catalog_body{
         display:none;
-        width: 100%;
-        height: 100%;
-        position: fixed;
     }
     
     #catalog{
@@ -1013,7 +1018,14 @@ padding-right: 18px;
         display:grid;
         position:fixed;
         z-index: 10000000;
-        right: 0;
+    }
+
+    #catalog img{
+        width: 20px;
+        height: 20px;
+        justify-self: end;
+        margin-top: 8px;
+        margin-right: 8px;
     }
     
     @keyframes menu{
@@ -1022,15 +1034,16 @@ padding-right: 18px;
         }
     
         to{
-            margin-top: 35%;
+            margin-top: 0;
         }
     }
     
     #main_menu{
-        display: block;
-        margin-top: 35%;
+        display: grid;
         animation-duration: 0.5s;
         animation-name: menu;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     #main_menu a{
@@ -1043,7 +1056,8 @@ padding-right: 18px;
     text-decoration: none;
     display: block;
     opacity: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    width: 164px;
     }
     
     #main_menu a:hover{
@@ -1055,7 +1069,7 @@ padding-right: 18px;
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 16px;
+        margin-top: 32px;
     }
     
     #MainMenu_social img{
