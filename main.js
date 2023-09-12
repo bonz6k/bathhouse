@@ -633,7 +633,7 @@ else if(window.innerWidth<450){
     
         btn.onclick=function(){
             if (i==0) {
-                catalog.style.display='block'
+                catalog.style.display='grid'
                 i = 1;
             }
             else{
