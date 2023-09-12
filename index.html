@@ -10,14 +10,18 @@
     <link href="https://fonts.cdnfonts.com/css/ruslan-display" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
-    <div id="header">
+    <div id="headerM">
+        <div id="header">
         <a href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
         <p id="number_header">8 910 706 66 66</p>
         <a class="social" href="https://vk.com/sosnovybor40rus"><img src="img/vk.png" alt=""></a>
         <a class="social" href="https://wa.me/79107066666"><img src="img/whatsapp.png" alt=""></a>
         <img id="menu_img" src="img/menu_img.png" alt="">
+    </div>
+
     </div>
 
         <script src="main.js"></script>
@@ -47,94 +51,110 @@
         <script>MainPageBackgroundImageSlider()</script>
 
         <div id="about_us_slide">
-            <div id="photo">
+            <div class="alig">
                 <p id="about_us_title">О нас</p>
-                <img id="about_us_slider_img" src="img/usadba.png" alt="">
-            </div>
             <div id="desc_about_us">
+                <img id="about_us_slider_img" src="img/usadba.png" alt="">
                 <div id="div_thesis">
                     <pre>
 Усадьба “Сосновый Бор"
-- это уютное и тихое место для
-отдыха в Калужском бору.
+- это уютное и тихое место
+для отдыха в Калужском бору.
                     </pre>
                 </div>
                 <div id="div_description">
                     <div id="vertical_line"></div>
-                    <pre>
+                    <div id="div_desc_p">
+                        <p>
 Здесь вы сможете приятно провести время,
 получить заряд бодрости и энергии,
 попариться от души в русской бане. 
-
-А так же провести своё мероприятие или
-отметить торжество.
-                    </pre>
+                    </p>
+                    <p>
+                    А так же провести своё мероприятие или
+                    отметить торжество.
+                    </p>
+                    </div>
+                    
                 </div>
                 <div class="buttons">
                     <img id="about_us_left_arrow" src="img/left_arrow.png" alt="">
                     <img id="about_us_right_arrow" src="img/right_arrow.png" alt="">
                 </div>
             </div>
+
+            </div>
+                
         </div>
         <script>about_us_slider()</script>
 
         <div id="video_slide">
-            <video id="video" src="img/video.mp4" poster="img/oblojka.png"></video>   
+            <video id="video" src="img/video.mp4" poster="img/oblojka.png" preload="auto"></video>   
             <button id="circle_play"><img src="img/triangle.png" alt=""></button>
         </div>
         <script>video_play()</script>
 
         <div id="why_always_we">
-            <div id="div_waw_text">
-                <p id="waw_text">Почему мы?</p>
+            <div class="alig">
+                <div id="div_waw_text">
+                    <p id="waw_text">Почему мы?</p>
+                </div>
+                <div id="arguments">
+                    <div id="arg_up">
+                        <img src="img/el'.png" alt="">
+                        <p class="header_arg">Калужский бор</p>
+                        <pre class="text_arg">экологически чистое место</pre>
+                    </div>
+                    <div id="arg_down">
+                        <div id="arg_down_left">
+                            <img src="img/heart.png" alt="">
+                            <p class="header_arg">Классическая русская баня</p>
+                            <p class="text_arg">основа здоровья,
+    бодрости и долголетия</p>
+                       <a href="Big_bathhouse.html"><button class="waw_btn">Посмотреть баню</button></a>
+                        </div>
+                        <div id="arg_down_right">
+                            <img src="img/food.png" alt="">
+                            <p class="header_arg">Традиционная кухня</p>
+                            <p class="text_arg">банкетный зал и беседки
+    для ваших мероприятий</p>
+                        <a href="banquet_hall.html"><button class="waw_btn">Посмотреть банкетный зал</button></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="arguments">
-                <div id="arg_up">
-                    <img src="img/el'.png" alt="">
-                    <p class="header_arg">Калужский бор</p>
-                    <pre class="text_arg">экологически чистое место</pre>
-                </div>
-                <div id="arg_down">
-                    <div id="arg_down_left">
-                        <img src="img/heart.png" alt="">
-                        <p class="header_arg">Классическая русская баня</p>
-                        <pre class="text_arg">основа здоровья,
-бодрости и долголетия</pre>
-                   <a href="Big_bathhouse.html"><button class="waw_btn">Посмотреть баню</button></a>
-                    </div>
-                    <div id="arg_down_right">
-                        <img src="img/food.png" alt="">
-                        <p class="header_arg">Традиционная кухня</p>
-                        <pre class="text_arg">банкетный зал и беседки
-для ваших мероприятий</pre>
-                    <a href="banquet_hall.html"><button class="waw_btn">Посмотреть банкетный зал</button></a>
-                    </div>
-                </div>
+        </div>
+
+        <div id="brooms">
+            <div class="alig">
+                <p id="brooms_txt">традиционные
+берёзовые
+и дубовые веники</p>
+                <div id="white_line"></div>
+                <p id="bath_attendant_txt">услуги
+профессионального
+банщика</p>
             </div>
         </div>
         
-        <div id="brooms">
-            <div class="alig">
-                <pre id="brooms_txt">традиционные
-берёзовые
-и дубовые веники</pre>
-                <div id="white_line"></div>
-                <pre id="bath_attendant_txt">услуги
-профессионального
-банщика</pre>
-            </div>
-        </div>
         <div id="kitchen">
             <div class="alig">
             <p id="kitchen_txt">Кухня</p>
-            <img src="img/plov.png" alt="">
-            <img src="img/shashl'k.png" alt="">
-            <img src="img/shurpa.png" alt="">
+            <div id="plov" class="eat">
+                <p class="kitchen_p">Ферганский плов</p>
             </div>
-            
+            <div id="shashlyk" class="eat">
+                <p class="kitchen_p">Шашлык</p>
+            </div>
+            <div id="shurpa" class="eat">
+                <p class="kitchen_p">Шурпа</p>
+            </div>
+            </div>
+                     
         </div>
 
         <div id="sales">
+            <div id="sales_grid">
                 <pre id="sale_text">Скидка <b>15</b> %
 в день рождения</pre>
                 <p id="sale_desc">
@@ -143,11 +163,13 @@
                 <a id="reserve_btn" href="https://wa.me/79107066666">
                     <button id="rectangle_reserve">Забронировать</button>
                 </a> 
+            </div>
+                
         </div>
 
         <div id="reviews">
                 <p id="reviews_title">наши гости</p>
-                <div>
+                <div id="reviews_div">
                     <div id="desc_reviews">
                         <img id="reviews_slider_img" src="img/boxers.png" alt="">
                             <div id="reviews_description">
@@ -169,10 +191,8 @@
         <script>reviews_slider()</script>
 
         <div id="proverb">
-                <pre id="proverb_txt">В суете современного мира так
-важно сделать паузу и позволить
-отдохнуть <b>душе и телу!</b>
-                </pre>
+                <p id="proverb_txt">В суете современного мира так важно сделать паузу и позволить отдохнуть <b>душе и телу!</b>
+                </p>
         </div>
 
         <footer>
@@ -207,7 +227,7 @@
                 <a href="activeLeisure.html">Активный отдых</a>
                 </div>
             </div>
-        </footer>
+        </footer> 
         
 </body>
 </html>
