@@ -158,7 +158,7 @@
     body{
         margin: 0;
         cursor: default;
-        background-image: url('img/BBM_1.jfif'); 
+        background-image: url('img/BesedkiMobile_1.jfif'); 
         width: 100%;
         height: 100vh;
         background-size: 100% 100%;
@@ -166,15 +166,15 @@
         display: grid;
     }
 
-    #MobilePage{
-        display: grid;
-    }
-
     #headMobile{
     background-color: rgba(16, 46, 14, 0.7);
     height: 52px;
     width: 100%;
-    display: block;
+    display: inline-block;
+    }
+
+    #MobilePage{
+        display: grid;
     }
 
     #logo{
@@ -189,8 +189,8 @@
 font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
-color: #FFFFFF;
+font-size: 16px;
+color: #F4A123;
 display: inline-block;
 float: right;
 margin: 0;
@@ -200,15 +200,15 @@ margin-right: 16px;
 
     #mainMobile{
     background-color: rgba(16, 46, 14, 0.7);
-    height: 108px;
+    height: 130px;
     width: 100%;
     text-align: center;
-    display: block;
     }
 
     #MobileTxt{
-        float: right;
-        margin-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 172px;
     }
 
     #mainMobile #first{
@@ -218,28 +218,31 @@ font-weight: 400;
 font-size: 24px;
 color: #FFFFFF;
 margin: 0;
-height: 17px;
 display: block;
-margin-top: 31px;
     }
 
     #mainMobile #second{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+margin: 0;
+display: block;
+margin-top: 16px;
+    }
+
+    #mainMobile #third{
 font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
+text-align: center;
 color: #FFFFFF;
-margin: 0;
-height: 22px;
-display: block;
-margin-top: 8px;
     }
 
-    #mainMobile #third{
-display: none;
-    }
-
-    #mainMobile #second b{
+    #mainMobile #third b{
         color: #F4A123;
     }
 
@@ -252,7 +255,6 @@ display: none;
         display: grid;
         margin-left: auto;
         margin-right: auto;
-        height: 120px;
     }
 
     #rectangle_reserve_Mobile{

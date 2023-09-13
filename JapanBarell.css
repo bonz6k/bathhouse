@@ -238,11 +238,6 @@ margin-right: 16px;
     display: block;
     }
 
-    #MobileTxt{
-        float: right;
-        margin-right: 16px;
-    }
-
     #mainMobile #first{
 font-family: 'Ruslan Display';
 font-style: normal;
@@ -252,26 +247,32 @@ color: #FFFFFF;
 margin: 0;
 height: 17px;
 display: block;
-margin-top: 31px;
+margin-top: 8px;
     }
 
     #mainMobile #second{
 font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 32px;
 color: #FFFFFF;
 margin: 0;
 height: 22px;
 display: block;
-margin-top: 8px;
+margin-top: 16px;
     }
 
     #mainMobile #third{
-display: none;
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #ffffff;
+margin: 16px;
     }
 
-    #mainMobile #second b{
+    #mainMobile #third b{
         color: #F4A123;
     }
 
