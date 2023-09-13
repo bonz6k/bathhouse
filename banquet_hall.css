@@ -263,7 +263,7 @@ padding-top: 10.5px;
     body{
         margin: 0;
         cursor: default;
-        background-image: url('img/BHM_1.jfif'); 
+        background-image: url('img/BBM_1.jfif'); 
         width: 100%;
         height: 100vh;
         background-size: 100% 100%;
@@ -271,13 +271,15 @@ padding-top: 10.5px;
         display: grid;
     }
 
+    #MobilePage{
+        display: grid;
+    }
+
     #headMobile{
     background-color: rgba(16, 46, 14, 0.7);
     height: 52px;
     width: 100%;
-    position: fixed;
-    z-index: 100000;
-    display: inline-block;
+    display: block;
     }
 
     #logo{
@@ -305,14 +307,13 @@ margin-right: 16px;
     background-color: rgba(16, 46, 14, 0.7);
     height: 108px;
     width: 100%;
-    z-index: 100000;
-    position: fixed;
-    margin-top: 122px;
     text-align: center;
+    display: block;
     }
 
     #MobileTxt{
-        text-align: center;
+        float: right;
+        margin-right: 16px;
     }
 
     #mainMobile #first{
@@ -324,7 +325,7 @@ color: #FFFFFF;
 margin: 0;
 height: 17px;
 display: block;
-margin-top: 16px;
+margin-top: 31px;
     }
 
     #mainMobile #second{
@@ -340,14 +341,7 @@ margin-top: 8px;
     }
 
     #mainMobile #third{
-        font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-text-align: center;
-color: #FFFFFF;
-margin: 0;
-margin-top: 16px;
+display: none;
     }
 
     #mainMobile #second b{
@@ -355,14 +349,15 @@ margin-top: 16px;
     }
 
     #footMobile{
-        margin-top: 355px;
-        display: grid;
+        display: block;
+        height: 117px;
     }
 
     #buttons_Mobile{
         display: grid;
         margin-left: auto;
         margin-right: auto;
+        height: 120px;
     }
 
     #rectangle_reserve_Mobile{
@@ -386,6 +381,9 @@ margin-top: 16px;
     
     #reserve_btn_Mobile{
         text-decoration: none;
+        width: 246px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     
@@ -410,10 +408,16 @@ margin-top: 16px;
     
     #right{
         width: 100%;
+        height: 100%;
         display: none;
         position: fixed;
         z-index: 99999999999;
         background-color: rgba(187, 195, 165, 1);
+    }
+
+    #right_alig{
+        margin: auto;
+        height: 440px;
     }
 
     #headCatalog{
@@ -453,7 +457,6 @@ margin-bottom: 32px;
         margin: 0;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 90px;
     }
     
     #catalog li{

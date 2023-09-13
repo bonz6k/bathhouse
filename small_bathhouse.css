@@ -267,13 +267,15 @@ padding-top: 10.5px;
         display: grid;
     }
 
+    #MobilePage{
+        display: grid;
+    }
+
     #headMobile{
     background-color: rgba(16, 46, 14, 0.7);
     height: 52px;
     width: 100%;
-    position: fixed;
-    z-index: 100000;
-    display: inline-block;
+    display: block;
     }
 
     #logo{
@@ -301,14 +303,12 @@ margin-right: 16px;
     background-color: rgba(16, 46, 14, 0.7);
     height: 108px;
     width: 100%;
-    z-index: 100000;
-    position: fixed;
-    margin-top: 173px;
     text-align: center;
+    display: block;
     }
 
     #MobileTxt{
-        margin-right: 16px;
+        
     }
 
     #mainMobile #first{
@@ -344,6 +344,10 @@ line-height: 18px;
 text-align: center;
 color: #FFFFFF;
 margin: 0;
+margin-top: 70px;
+width: 220px;
+margin-left: auto;
+margin-right: auto;
     }
 
     #mainMobile #second b{
@@ -351,11 +355,12 @@ margin: 0;
     }
 
     #footMobile{
-        margin-top: 303px;
-        display: grid;
+        height: 117px;
+        display: block;
     }
 
     #buttons_Mobile{
+        margin-top: 32px;
         display: grid;
         margin-left: auto;
         margin-right: auto;
@@ -411,10 +416,16 @@ margin: 0;
     
     #right{
         width: 100%;
+        height: 100%;
         display: none;
         position: fixed;
         z-index: 99999999999;
         background-color: rgba(187, 195, 165, 1);
+    }
+
+    #right_alig{
+        margin: auto;
+        height: 355px;
     }
 
     #headCatalog{
@@ -454,7 +465,6 @@ margin-bottom: 32px;
         margin: 0;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 90px;
     }
     
     #catalog li{
