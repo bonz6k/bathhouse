@@ -693,12 +693,12 @@ font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 400;
 font-size: 64px;
-line-height: 69px;
 color: #102E0E;
 text-align: center;
 margin-right: 0;
 width: 69px;
 height: 453px;
+margin: 0;
 }
 
 #desc_reviews{
