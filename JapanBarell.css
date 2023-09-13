@@ -147,6 +147,9 @@
     #headCatalog{
         display: none;
     }
+    #right{
+        display: none;
+    }
 
     #line_up{
         width: 170px;
