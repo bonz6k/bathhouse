@@ -270,7 +270,7 @@ margin-top: 32px;
     margin-left: 21px;
 }
 
-#div_description p{
+#div_description h3{
 display: block;
 width: 346px;
 font-family: 'Mulish';
@@ -388,7 +388,7 @@ text-align: center;
 color: #102E0E;
 }
 
-#arg_up p{
+#arg_up h1{
 margin-left: 506px;
 margin-top: 16px;
 margin-bottom: 0;
@@ -809,7 +809,7 @@ footer{
     display: flex;
 }
 
-#info h1{
+#info #welcom{
 font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 400;
@@ -846,7 +846,6 @@ font-weight: 400;
 font-size: 36px;
 line-height: 39px;
 color: #FFFFFF;
-width: 470px;
 margin: 0;
 margin-left: 30px;
 }
@@ -1239,7 +1238,7 @@ display: block;
         margin-left: 12px;
     }
     
-    #div_description p{
+    #div_description h3{
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
@@ -1761,7 +1760,7 @@ display: block;
         display: grid;
     }
     
-    #info h1{
+    #info #welcom{
     font-family: 'Ruslan Display';
     font-style: normal;
     font-weight: 400;
