@@ -1,133 +1,391 @@
-body{
-    margin: 0;
-    cursor: default;
-    background-image: url('img/pavilion_1.jfif');
-    width: 100%;
-    height: 100vh;
-    background-size: 100% 100%;
-    margin: 0;
-    display: flex;
-}
-
-#left{
-    width: 100%;
-    height: 100%;
-    right: 0;
-}
-
-#head{
-    display: flex;
-}
-
-#head img{
-    width: 80px;
-    height: 80px;
-    margin-top: 45px;
-    margin-left: 45px;
-}
-
-#head img:hover{
-    cursor: pointer;
-}
-
-#price{
-    background-color: rgba(12, 34, 10, 0.7);
-    margin-top: 102px;
-    width: 100%;
-    height: 330px;
-    display: grid;
-}
-
-#price h1{
-font-family: 'Ruslan Display';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 52px;
-color: #ffffff;
-margin: 0;
-height: 39px;
-text-align: center;
-}
-
-#head h4{
-font-family: 'Ruslan Display';
-font-strgb(255, 255, 255)rmal;
-font-weight: 400;
-font-size: 64px;
-line-height: 69px;
-color: #FFFFFF;
-margin: 0;
-margin-top: 77px;
-margin-left: 163px;
-}
-
-#price h1 b{
-color: #F4A123;
-}
-
-#price p{
+@media(min-width: 1200px){
+    body{
+        margin: 0;
+        cursor: default;
+        background-image: url('img/pavilion_1.jfif');
+        width: 100%;
+        height: 100vh;
+        background-size: 100% 100%;
+        margin: 0;
+        display: flex;
+    }
+    
+    #left{
+        width: 100%;
+        height: 100%;
+        right: 0;
+    }
+    
+    #head{
+        display: flex;
+    }
+    
+    #head img{
+        width: 80px;
+        height: 80px;
+        margin-top: 45px;
+        margin-left: 45px;
+    }
+    
+    #head img:hover{
+        cursor: pointer;
+    }
+    
+    #price{
+        background-color: rgba(12, 34, 10, 0.7);
+        margin-top: 102px;
+        width: 100%;
+        height: 330px;
+        display: grid;
+    }
+    
+    #price h1{
     font-family: 'Ruslan Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 43px;
-    color: #FFFFFF;
-margin: 0;
-padding-top: 51px;
-text-align: center;
-height: 43px;
-}
-
-#foot{
-    display: block;
-}
-
-#rectangle_reserve{
-    width: 365px;
-    height: 65px;
-    border-radius: 30px;
-    background-color: #189D0E;
+    font-size: 48px;
+    line-height: 52px;
+    color: #ffffff;
+    margin: 0;
+    height: 39px;
+    text-align: center;
+    }
+    
+    #head h4{
     font-family: 'Ruslan Display';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 69px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 77px;
+    margin-left: 163px;
+    }
+    
+    #price h1 b{
+    color: #F4A123;
+    }
+    
+    #price p{
+        font-family: 'Ruslan Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 43px;
+        color: #FFFFFF;
+    margin: 0;
+    padding-top: 51px;
+    text-align: center;
+    height: 43px;
+    }
+    
+    #foot{
+        display: block;
+    }
+    
+    #rectangle_reserve{
+        width: 365px;
+        height: 65px;
+        border-radius: 30px;
+        background-color: #189D0E;
+        font-family: 'Ruslan Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34.72px;
+    color: #FFFEFE;
+    border: 0;
+    padding-top: 10.5px;
+    }
+    
+    #rectangle_reserve:hover{
+        cursor: pointer;
+        opacity: 90%;
+    }
+    
+    #reserve_btn{
+        margin-bottom: 0;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        height: 65px;
+    }
+    
+    #arrow_buttons img{
+        width: 71px;
+        height: 71px;
+        margin-right: 23.5px;
+        margin-left: 23.5px;
+    
+    }
+    
+    #arrow_buttons img:hover{
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+    
+    #arrow_buttons{
+        width: 250px;
+        height: 72px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3%;
+    }
+
+    #MobilePage{
+        display: none;
+    }
+
+    #headCatalog{
+        display: none;
+    }
+
+    #forU{display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:450px){
+    body{
+        margin: 0;
+        cursor: default;
+        background-image: url('img/BesedkiMobile_1.jfif'); 
+        width: 100%;
+        height: 100vh;
+        background-size: 100% 100%;
+        margin: 0;
+        display: grid;
+    }
+
+    #headMobile{
+    background-color: rgba(16, 46, 14, 0.7);
+    height: 52px;
+    width: 100%;
+    position: fixed;
+    z-index: 100000;
+    display: inline-block;
+    }
+
+    #logo{
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    #headMobile p{
+font-family: 'Ruslan Display';
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
-line-height: 34.72px;
-color: #FFFEFE;
-border: 0;
-padding-top: 10.5px;
-}
+font-size: 16px;
+color: #F4A123;
+display: inline-block;
+float: right;
+margin: 0;
+margin-top: 16px;
+margin-right: 16px;
+    }
 
-#rectangle_reserve:hover{
-    cursor: pointer;
-    opacity: 90%;
-}
+    #mainMobile{
+    background-color: rgba(16, 46, 14, 0.7);
+    height: 130px;
+    width: 100%;
+    z-index: 100000;
+    position: fixed;
+    margin-top: 173px;
+    text-align: center;
+    }
 
-#reserve_btn{
-    margin-bottom: 0;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    height: 65px;
-}
+    #MobileTxt{
+        margin-left: auto;
+        margin-right: auto;
+        width: 172px;
+    }
 
-#arrow_buttons img{
-    width: 71px;
-    height: 71px;
-    margin-right: 23.5px;
-    margin-left: 23.5px;
-
-}
-
-#arrow_buttons img:hover{
-    transform: scale(1.02);
-    cursor: pointer;
-}
-
-#arrow_buttons{
-    width: 250px;
-    height: 72px;
-margin: 0 auto;
+    #mainMobile #first{
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #FFFFFF;
+margin: 0;
 display: block;
-margin-top: 3%;
+    }
+
+    #mainMobile #second{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+margin: 0;
+display: block;
+margin-top: 16px;
+    }
+
+    #mainMobile #third{
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+    }
+
+    #mainMobile #third b{
+        color: #F4A123;
+    }
+
+    #footMobile{
+        margin-top: 355px;
+        display: grid;
+    }
+
+    #buttons_Mobile{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #rectangle_reserve_Mobile{
+        width: 246px;
+        height: 45px;
+        border-radius: 15px;
+        background-color: #189D0E;
+        font-family: 'Ruslan Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFEFE;
+    border: 0;
+    padding-top: 4px;
+    }
+    
+    #rectangle_reserve_Mobile:hover{
+        cursor: pointer;
+        opacity: 90%;
+    }
+    
+    #reserve_btn_Mobile{
+        text-decoration: none;
+    }
+    
+    
+    #arrow_buttons_Mobile img{
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+        margin-left: 8px;
+    
+    }
+    
+    #arrow_buttons_Mobile img:hover{
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+    
+    #arrow_buttons_Mobile{
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #right{
+        width: 100%;
+        display: none;
+        position: fixed;
+        z-index: 99999999999;
+        background-color: rgba(187, 195, 165, 1);
+    }
+
+    #headCatalog{
+    background-color: rgba(16, 46, 14, 0.7);
+    height: 52px;
+    width: 100%;
+    position: fixed;
+    z-index: 999999999999;
+    display: inline-block;
+    }
+
+    #close{
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+
+    #forU{
+font-family: 'Ruslan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #102E0E;
+margin: 0;
+margin-bottom: 32px;
+    }
+
+    
+    #catalog{
+        width: 310px;
+        height: 544px;
+        display: block;
+        padding-left: 0;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+    }
+    
+    #catalog li{
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+text-align: center;
+color: #102E0E;
+    text-decoration: none;
+    display: block;
+    opacity: 100%;
+
+    }
+    
+    #catalog li:hover{
+        color: #F4A123;
+    }
+    
+    .line{
+        width: 172px;
+        height: 3px;
+        background-color: rgba(16, 46, 14, 1);
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 100%;
+        margin-top: 32px;
+    }
+    
+    #left{
+        display: none;
+    }
+
+    #line_up{
+        display: none;
+    }
+    
 }
+
+

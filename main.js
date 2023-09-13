@@ -416,7 +416,7 @@ left.onclick=function(){
 
 
 
-activeLeisure
+
 function activeLeisureBackgroundImage(){
     var images = new Array();
     var i = 0;
@@ -632,12 +632,10 @@ else if(window.innerWidth<450){
     
         btn.onclick=function(){
                 catalog.style.display='grid'
-                i = 1;
         };
     
         close.onclick=function(){
                 catalog.style.display='none'
-                i = 0;
         }
     }
     
@@ -649,15 +647,15 @@ else if(window.innerWidth<450){
         var images = new Array();
         var i = 0;
                          
-    images[0] = "url('img/smallBath_1.jfif')";
-    images[1] = "url('img/smallBath_2.jfif')";
-    images[2] = "url('img/smallBath_3.jfif')";
-    images[3] = "url('img/veniki.jfif')";
+    images[0] = "url('img/SBM_1.jfif')";
+    images[1] = "url('img/SBM_2.jfif')";
+    images[2] = "url('img/SBM_3.jfif')";
+    images[3] = "url('img/SBM_4.jfif')";
     
     
     document.getElementById("body").style.backgroundImage = images[i];
-    var right = document.getElementById('reviews_right_arrow');
-    var left = document.getElementById('reviews_left_arrow');
+    var right = document.getElementById('reviews_right_arrow_Mobile');
+    var left = document.getElementById('reviews_left_arrow_Mobile');
     
     right.onclick=function(){
         if((i+1)<images.length){i++}
@@ -681,17 +679,20 @@ else if(window.innerWidth<450){
         var images = new Array();
         var i = 0;
                          
-    images[0] = "url('img/Big_b_1.jfif')";
-    images[1] = "url('img/Big_b_2.jfif')";
-    images[2] = "url('img/Big_b_3.jfif')";
-    images[3] = "url('img/Big_b_4.jfif')";
-    images[4] = "url('img/Big_b_5.jfif')";
-    images[5] = "url('img/Big_b_6.jfif')";
+    images[0] = "url('img/BBM_1.jfif')";
+    images[1] = "url('img/BBM_2.jfif')";
+    images[2] = "url('img/BBM_3.jfif')";
+    images[3] = "url('img/BBM_4.jfif')";
+    images[4] = "url('img/BBM_5.jfif')";
+    images[5] = "url('img/BBM_6.jfif')";
+    images[6] = "url('img/BBM_7.jfif')";
+    images[7] = "url('img/BBM_8.jfif')";
+    images[8] = "url('img/BBM_9.jfif')";
     
     
     document.getElementById("body").style.backgroundImage = images[i];
-    var right = document.getElementById('reviews_right_arrow');
-    var left = document.getElementById('reviews_left_arrow');
+    var right = document.getElementById('reviews_right_arrow_Mobile');
+    var left = document.getElementById('reviews_left_arrow_Mobile');
     
     right.onclick=function(){
         if((i+1)<images.length){i++}
@@ -705,6 +706,35 @@ else if(window.innerWidth<450){
         document.getElementById("body").style.backgroundImage = images[i];
     }
     }
+
+
+
+
+
+
+
+
+
+
+
+    function Mobile2Menu(){
+        var btn = document.getElementById('menu2');
+        var close = document.getElementById('close');
+        var catalog = document.getElementById('right');
+    
+        btn.onclick=function(){
+                catalog.style.display='grid'
+        };
+    
+        close.onclick=function(){
+                catalog.style.display='none'
+        }
+    }
+
+
+
+
+
     
     
     
@@ -717,17 +747,17 @@ else if(window.innerWidth<450){
         var images = new Array();
         var i = 0;
                          
-    images[0] = "url('img/banqet_1.jfif')";
-    images[1] = "url('img/banqet_2.jfif')";
-    images[2] = "url('img/banqet_3.jfif')";
-    images[3] = "url('img/banqet_4.jfif')";
-    images[4] = "url('img/banqet_5.jfif')";
-    images[5] = "url('img/banqet_6.jfif')";
+    images[0] = "url('img/BHM_1.jfif')";
+    images[1] = "url('img/BHM_2.jfif')";
+    images[2] = "url('img/BHM_3.jfif')";
+    images[3] = "url('img/BHM_4.jfif')";
+    images[4] = "url('img/BHM_5.jfif')";
+    images[5] = "url('img/BHM_6.jfif')";
     
     
     document.getElementById("body").style.backgroundImage = images[i];
-    var right = document.getElementById('reviews_right_arrow');
-    var left = document.getElementById('reviews_left_arrow');
+    var right = document.getElementById('reviews_right_arrow_Mobile');
+    var left = document.getElementById('reviews_left_arrow_Mobile');
     
     right.onclick=function(){
         if((i+1)<images.length){i++}
@@ -752,15 +782,15 @@ else if(window.innerWidth<450){
         var images = new Array();
         var i = 0;
                          
-    images[0] = "url('img/banya.jpg')";
-    images[1] = "url('img/banya_2.jfif')";
-    images[2] = "url('img/banya_3.jfif')";
-    images[3] = "url('img/banya_4.jfif')";
+    // images[0] = "url('img/banya.jpg')";
+    // images[1] = "url('img/banya_2.jfif')";
+    // images[2] = "url('img/banya_3.jfif')";
+    // images[3] = "url('img/banya_4.jfif')";
     
     
     document.getElementById("body").style.backgroundImage = images[i];
-    var right = document.getElementById('reviews_right_arrow');
-    var left = document.getElementById('reviews_left_arrow');
+    var right = document.getElementById('reviews_right_arrow_Mobile');
+    var left = document.getElementById('reviews_left_arrow_Mobile');
     
     right.onclick=function(){
         if((i+1)<images.length){i++}
@@ -785,15 +815,13 @@ else if(window.innerWidth<450){
         var images = new Array();
         var i = 0;
                          
-    images[0] = "url('img/hotel_1.jfif')";
-    images[1] = "url('img/hotel_2.jfif')";
-    images[2] = "url('img/hotel_3.jfif')";
-    images[3] = "url('img/hotel_4.jfif')";
+    images[0] = "url('img/Hotel_Mobile_1.jfif')";
+    images[1] = "url('img/Hotel_Mobile_2.jfif')";
     
     
     document.getElementById("body").style.backgroundImage = images[i];
-    var right = document.getElementById('reviews_right_arrow');
-    var left = document.getElementById('reviews_left_arrow');
+    var right = document.getElementById('reviews_right_arrow_Mobile');
+    var left = document.getElementById('reviews_left_arrow_Mobile');
     
     right.onclick=function(){
         if((i+1)<images.length){
@@ -850,14 +878,13 @@ else if(window.innerWidth<450){
         var images = new Array();
         var i = 0;
                          
-    images[0] = "url('img/pavilion_1.jfif')";
-    images[1] = "url('img/pavilion_2.jfif')";
-    images[2] = "url('img/pavilion_3.jfif')";
+    images[0] = "url('img/BesedkiMobile_1.jfif')";
+    images[1] = "url('img/BesedkiMobile_2.jfif')";
     
     
     document.getElementById("body").style.backgroundImage = images[i];
-    var right = document.getElementById('reviews_right_arrow');
-    var left = document.getElementById('reviews_left_arrow');
+    var right = document.getElementById('reviews_right_arrow_Mobile');
+    var left = document.getElementById('reviews_left_arrow_Mobile');
     
     right.onclick=function(){
         if((i+1)<images.length){i++}
@@ -878,8 +905,7 @@ else if(window.innerWidth<450){
     
     
     
-    
-    activeLeisure
+
     function activeLeisureBackgroundImage(){
         var images = new Array();
         var i = 0;
@@ -888,28 +914,28 @@ else if(window.innerWidth<450){
     
         var p = new Array();
                          
-    images[0] = "url('img/velik.jfif')";
-    images[1] = "url('img/lyzhi.jfif')";
+    images[0] = "url('img/velik_Mobile.jfif')";
+    images[1] = "url('img/lyzhi_Mobile.jfif')";
     
     h[0] = "Прокат велосипедов";
     h[1] = "Прокат лыжной экипировки";
     
     document.getElementById("body").style.backgroundImage = images[i];
-    var right = document.getElementById('reviews_right_arrow');
-    var left = document.getElementById('reviews_left_arrow');
+    var right = document.getElementById('reviews_right_arrow_Mobile');
+    var left = document.getElementById('reviews_left_arrow_Mobile');
     
     right.onclick=function(){
         if((i+1)<images.length){i++}
         else{i=0}
         document.getElementById("body").style.backgroundImage = images[i];
-        document.getElementById("p").innerHTML = h[i];
+        document.getElementById("first").innerHTML = h[i];
     }
     
     left.onclick=function(){
         if(i==0){i=(images.length-1)}
         else{i--}
         document.getElementById("body").style.backgroundImage = images[i];
-        document.getElementById("p").innerHTML = h[i];
+        document.getElementById("first").innerHTML = h[i];
     }
     }
 }

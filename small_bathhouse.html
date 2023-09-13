@@ -13,6 +13,32 @@
 </head>
 <body id="body">
     <script src="main.js"></script>
+
+    <div id="MobilePage">
+        <div id="headMobile">
+            <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
+            <p id="menu2">ПОДРОБНЕЕ</p>
+        </div>
+        <div id="mainMobile">
+            <div id="MobileTxt">
+            <p id="first">Маленькая баня</p>
+            <p id="second"><b>1800</b>руб/час</p>
+            </div>
+        </div>
+        <div id="footMobile">
+            <div id="buttons_Mobile">
+                <p id="third">Больше 6 человек доплата 100₽/час за 1 человека</p>
+                <a id="reserve_btn_Mobile" href="https://wa.me/79107066666">
+                    <button id="rectangle_reserve_Mobile">Забронировать</button>
+                </a>
+                <div id="arrow_buttons_Mobile">
+                    <img id="reviews_left_arrow_Mobile" src="img/left_arrow_bc.png" alt="">
+                    <img id="reviews_right_arrow_Mobile" src="img/arrow_right_bc.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
         <div id="left">
             <div id="head">
                 <a href="index.html"><img src="img/logo.png" alt=""></a>
@@ -49,8 +75,13 @@
         <script>SmallBathBackgroundImage()</script>
     
         <div id="right">
+            <div id="headCatalog">
+                <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
+                <img id="close" src="img/close.png" alt="">
+            </div>
             <ul id="catalog">
-                    <div id="line"></div>
+                <p id="forU">Для вас:</p>
+                    <div class="line" id="line_up"></div>
                     <li>Парная на дровах</li>
                     <li>Банные принадлежности</li>
                     <li>Комната отдыха</li>
@@ -58,8 +89,9 @@
                     <li>Душевая</li>
                     <li>Балкон</li>
                     <li>Настольные игры</li>
-                    <div id="line"></div>
+                    <div class="line" id="line_down"></div>
             </ul>
         </div>
+        <script>Mobile2Menu()</script>
 </body>
 </html>

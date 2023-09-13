@@ -13,6 +13,30 @@
 </head>
 <body id="body">
     <script src="main.js"></script>
+    <div id="MobilePage">
+        <div id="headMobile">
+            <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
+            <p id="menu2">ПОДРОБНЕЕ</p>
+        </div>
+        <div id="mainMobile">
+            <div id="MobileTxt">
+            <p id="first">Банкетный зал</p>
+            <p id="second"><b>*2500</b>руб/час</p>
+            <p id="third">Полная организация вашего праздника</p>
+            </div>
+        </div>
+        <div id="footMobile">
+            <div id="buttons_Mobile">
+                <a id="reserve_btn_Mobile" href="https://wa.me/79107066666">
+                    <button id="rectangle_reserve_Mobile">Забронировать</button>
+                </a>
+                <div id="arrow_buttons_Mobile">
+                    <img id="reviews_left_arrow_Mobile" src="img/left_arrow_bc.png" alt="">
+                    <img id="reviews_right_arrow_Mobile" src="img/arrow_right_bc.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
         <div id="left">
             <div id="head">
                 <a href="index.html"><img src="img/logo.png" alt=""></a>
@@ -45,8 +69,13 @@
         <script>BanquetHallBackgroundImage()</script>
     
         <div id="right">
+            <div id="headCatalog">
+                <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
+                <img id="close" src="img/close.png" alt="">
+            </div>
             <ul id="catalog">
-                    <div id="line"></div>
+                <p id="forU">Для вас:</p>
+                    <div class="line" id="line_up"></div>
                     <li>Караоке</li>
                     <li>Свето-музыка</li>
                     <li>Профессиональная акустическая система</li>
@@ -55,8 +84,9 @@
                     <li>Ведущий</li>
                     <li>Фото и видео</li>
                     <li>Настольные игры</li>
-                    <div id="line"></div>
+                    <div class="line" id="line_down"></div>
             </ul>
         </div>
+        <script>Mobile2Menu()</script>
 </body>
 </html>
