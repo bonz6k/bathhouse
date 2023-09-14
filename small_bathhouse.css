@@ -42,10 +42,6 @@ opacity: 100%;
 padding-bottom: 40px;
 }
 
-#catalog li:hover{
-    color: #F4A123;
-}
-
 #left{
     width: 72.5%;
     height: 100%;
