@@ -978,6 +978,11 @@ padding-right: 18px;
 
 
 @media (max-width: 450px){
+
+    *{
+        -webkit-tap-highlight-color: transparent;
+    }
+
     body{
         margin: 0;
         background-color: #BBC3A5;
@@ -1046,11 +1051,6 @@ padding-right: 18px;
     opacity: 100%;
     margin-bottom: 8px;
     width: 164px;
-    }
-    
-    #main_menu a:hover{
-        color: #F4A123;
-        cursor: pointer;
     }
 
     #MainMenu_social{

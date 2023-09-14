@@ -256,6 +256,11 @@ padding-top: 10.5px;
 
 
 @media(max-width:450px){
+
+    *{
+        -webkit-tap-highlight-color: transparent;
+    }
+
     body{
         margin: 0;
         cursor: default;
