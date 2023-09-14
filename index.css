@@ -1083,6 +1083,7 @@ color: #F4A123;
     margin-top: 24px;
     margin-right: 16px;
     margin-left: 110px;
+    text-decoration: none;
     }
     
     #header .social{
@@ -1824,6 +1825,7 @@ display: block;
             margin: 0;
             text-align: center;
             margin-top: 8px;
+            text-decoration: none;
     }
     
     #social{
